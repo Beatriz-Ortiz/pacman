@@ -25,3 +25,29 @@
 .pac-man { background-color: yellow; border-radius: 10px; }
 
 .scared-ghost { background-color: aquamarine; }
+
+.btn {
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-bottom: 5px;
+}
+
+.btn_new_game {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+}
+
+.btn_new_game:hover {
+background-color: green;
+color: white;
+}
